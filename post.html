@@ -21,7 +21,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 
 </head>
 
@@ -30,7 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-<!--      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/navbar.png" alt="" /></a>-->
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar.png" alt="" /></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars ml-1"></i>
@@ -38,38 +38,39 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">HOME</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="internetworks.html">BLOG</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">ABOUT</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">Internet Works<span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="domainicann.html">Domain Names/ICANN</a>
+              <a class="dropdown-item" href="ipaddress.html">IP address, Packets & Routing</a>
+              <a class="dropdown-item" href="dns.html">DNS</a>
+              <a class="dropdown-item" href="http.html">HTTP/HTTPS protocols</a>
+              <a class="dropdown-item" href="html.html">W3C, HTML & CSS</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link active js-scroll-trigger" href="post.html">ABOUT</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">TEAM</a></li>
+
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/post-bg.jpg')">
-    <div class="overlay"></div>
+  <header class="masthead" style="background-image: url('assets/img/Invention.jpg')">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-heading">
-            <h1>About</h1>
-            <h2 class="subheading"></h2>
-            <span class="meta">Posted by
-              <a href="#">Sahar Qiyash</a>
-              on October 09, 2020</span>
-          </div>
-        </div>
-      </div>
+      <div class="masthead-heading text-uppercase">ABOUT</div>
     </div>
   </header>
 
+
   <!-- Post Content -->
-  <article>
+
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-        <p>The Internet is the defining technology of our time And historic revolution in communications
+
+      <p class="lead">The Internet is the defining technology of our time And historic revolution in communications
           for the human race that is changing the world. The Internet enables millions of people with personal
           computers to communicate and connect. It is also the world's largest marketplace and shopping mall
           and it’s a link to websites the world over with information for every aspect of life and even the
@@ -77,10 +78,9 @@
           <blockquote class="blockquote">"The internet could be a very positive step towards education, organisation and participation in a meaningful society"</blockquote>
           <p></p>
 
-        </div>
-      </div>
+
     </div>
-  </article>
+
 
   <hr>
 
